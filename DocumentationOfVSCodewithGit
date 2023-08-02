@@ -1,0 +1,83 @@
+# GitHub in Visual Studio Code - User Guide
+
+This documentation will walk you through getting started with GitHub in Visual Studio Code (VS Code) and demonstrate how to use some of its essential features without leaving the editor. Before diving in, ensure you have installed Git, created a GitHub account, and added the "GitHub Pull Requests and Issues" extension from the VS Code Marketplace.
+
+## Installing Git and GitHub Extension
+
+To begin using GitHub in Visual Studio Code, you need to have Git installed on your system. Additionally, create a GitHub account if you don't have one yet. After that, head to the VS Code Marketplace and install the "GitHub Pull Requests and Issues" extension.
+
+## Signing In and Authentication
+
+After installing the extension, sign in to your GitHub account within VS Code. In case the authentication doesn't happen automatically, you can manually add your authorization token. Simply copy the token from the browser window and paste it into the "Signing in to github.com..." prompt in the Status bar of VS Code.
+
+## Setting Up a Repository
+
+### Cloning a Repository
+
+Easily clone a GitHub repository into your local workspace using the "Git: Clone" command in the Command Palette (Ctrl+Shift+P). Alternatively, you can use the "Clone Repository" button in the Source Control view when no folder is open. The extension provides a repository dropdown that lets you filter and select the repository you want to clone.
+
+### Authenticating with an Existing Repository
+
+GitHub authentication is automatically enabled when you perform any Git action in VS Code that requires it, such as pushing changes to a repository you're a member of or cloning a private repository. No additional extensions are necessary for authentication, as it is built into VS Code for seamless repository management.
+
+## Editor Integrations
+
+### Hovers
+
+As you work on a repository, the extension provides GitHub-style hover functionality for user mentions (using "@") and issue numbers. You can simply hover over these elements to see more information.
+
+### Suggestions
+
+When typing "@" or "#", the extension triggers user and issue suggestions. These suggestions are available in the editor and the Source Control view's input box, making it easier to work with GitHub-related content.
+
+## Pull Requests
+
+The extension offers a comprehensive set of features to handle pull requests without leaving VS Code.
+
+### Creating Pull Requests
+
+Once you've made changes to your fork or branch, you can easily create a pull request using the "GitHub Pull Requests: Create Pull Request" command or the "Create Pull Request" button in the Pull Requests view.
+
+### Reviewing Pull Requests
+
+The Pull Requests view allows you to review, manage, and perform actions on pull requests. You can assign reviewers, add labels, make comments, approve, close, and merge pull requests right from the pull request description.
+
+## Issues
+
+Working with GitHub issues is made effortless with the extension.
+
+### Creating Issues
+
+You can create issues from the Issues view by clicking the "+" button or by using the "GitHub Issues: Create Issue from Selection" and "GitHub Issues: Create Issue from Clipboard" commands. Additionally, you can create issues by using "TODO" comments in your code. When creating an issue, you can use the default description or edit it using the integrated editor.
+
+### Working on Issues
+
+When you start working on an issue by selecting the "Start Working on Issue" context menu item, the extension automatically creates a new branch for you. The Status bar displays the active issue, allowing you to access various issue actions, such as opening the issue on the GitHub website or creating a pull request.
+
+## GitHub Repositories Extension
+
+The GitHub Repositories extension provides a convenient way to interact with remote GitHub repositories directly from within VS Code.
+
+### Opening a Repository
+
+You can open remote GitHub repositories directly in VS Code without having to clone them to your local machine.
+
+### Switching Branches
+
+The extension allows you to easily switch between branches in a remote repository.
+
+### Remote Explorer
+
+The Remote Explorer offers a user-friendly interface to interact with remote repositories.
+
+### Virtual File System
+
+When working with repositories that aren't cloned locally, the extension creates a virtual file system in memory. Some operations and extensions that assume local files might have limited functionality.
+
+## GitHub Copilot Integration
+
+GitHub Copilot, the AI-powered coding assistant, is seamlessly integrated into Visual Studio Code. It provides intelligent suggestions and code completions to enhance your coding experience.
+
+---
+
+With this guide, you should be all set to leverage the power of GitHub directly within Visual Studio Code. Happy coding!
