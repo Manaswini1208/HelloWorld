@@ -1,0 +1,27 @@
+# Introduction to Python Programming
+
+Python is a remarkably straightforward and user-friendly language, boasting an intuitive syntax that encourages programmers to write concise code without boilerplate. Among the simplest directives in Python is the "print" directive, which efficiently prints out a line and automatically includes a newline character, distinguishing it from C programming.
+
+Python is available in two major versions: Python 2 and Python 3. This tutorial focuses on Python 3 due to its semantic correctness and support for newer features.
+
+## Key Differences Between Python 2 and Python 3
+
+One notable distinction between Python 2 and Python 3 lies in the "print" statement. In Python 2, "print" is not a function and thus does not require parentheses for invocation. Conversely, Python 3 treats "print" as a function and mandates the use of parentheses when invoking it.
+
+Another notable difference is the use of indentation for block structuring instead of curly braces. Python supports both tabs and spaces for indentation, but the standard practice dictates using four spaces for maintaining consistency in Python code.
+
+For example:
+
+```python
+# Python 2 - No parentheses needed for "print" statement
+print "Hello, World!"
+
+# Python 3 - "print" function requires parentheses
+print("Hello, World!")
+
+# Python code using four spaces for indentation
+def example_function():
+    if condition:
+        do_something()
+    else:
+        do_something_else()
